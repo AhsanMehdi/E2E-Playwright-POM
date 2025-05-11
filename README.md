@@ -1,5 +1,18 @@
 # E2E-Playwright-POM
 
+# WARNING:
+    -   view cart button
+
+    while adding a product to cart it is little strange to desing locator to click on add cart
+
+    due to hover issue sometimes it works sometimes it not
+
+    -   open url
+
+        other minor issue is while goto url
+
+        it takes time to go to url due to network delay
+         
 ## installation
 
 1 - for playwright it is required to install the node js so, first install that
@@ -25,9 +38,7 @@
 
 -   to run tests use the following command for headless mode
 
-    npx playwright test
-
-    report will be opened into your default browser automatically once the execution done
+    npx playwright test 
 
 ## report 
 
