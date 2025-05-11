@@ -39,6 +39,7 @@ export class LoginPage {
     await this.email.fill(login_credentials.email);
     await this.password.fill(login_credentials.password);
     await this.login.click();
+    // assertion applied to home page
     await expect(this.login_success_criteria).toBeVisible();
     }
 }
