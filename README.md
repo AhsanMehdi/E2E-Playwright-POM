@@ -28,3 +28,9 @@
     npx playwright test
 
     report will be opened into your default browser automatically once the execution done
+
+## report 
+
+-   run below command to open the report in browser
+
+     npx playwright show-report
